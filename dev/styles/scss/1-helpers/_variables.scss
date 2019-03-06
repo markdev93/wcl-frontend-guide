@@ -1,0 +1,65 @@
+// Variables
+//==============================================================================
+// colours
+// reds
+$prime-red: #BC081C;
+$prime-red-light: #CE4B59;
+$prime-red-lighten: #F8E8EA;
+$prime-red-dark: #9C0818;
+$prime-red-darken: #840000;
+
+// blue-grey
+$prime-blue-grey: #263238;
+$prime-blue-grey-light: #4F5B62;
+$prime-blue-grey-lighten: #EBECEC;
+$prime-blue-grey-dark: #20292E;
+$prime-blue-grey-darken: #000A12;
+
+// greyscale
+$grey: #ABB5BE;
+$grey-light: #DDE2E6;
+$grey-dark: #475058;
+$white: #F8F9FA;
+$black: #20252B;
+
+// teals
+$prime-teal: #00838F;
+$prime-teal-light: #4FB3BF;
+$prime-teal-lighten: #E7F3F4;
+$prime-teal-dark: #006C76;
+$prime-teal-darken: #005662;
+
+// greens
+$prime-green: #00C569;
+$prime-green-light: #44DD9A;
+$prime-green-lighten: #DDFDEB;
+$prime-green-dark: #00A050;
+$prime-green-darken: #005437;
+
+// yellows
+$prime-yellow: #FCC94E;
+$prime-yellow: #FCC94E;
+$prime-yellow-light: #FFE295;
+$prime-yellow-lighten: #FFFCF3;
+$prime-yellow-dark: #D1A419;
+$prime-yellow-darken: #604700;
+// blues
+$prime-blue: #0084CE;
+$prime-blue-light: #4DA3DD;
+$prime-bllue-lighten: #EDF8FF;
+$prime-blue-dark: #0069A7;
+$prime-blue-darken: #153D56;
+
+// golbal colours
+$primary-colour: $prime-red;
+$secondary-colour: $prime-blue-grey;
+
+$primary-btn: $prime-teal;
+
+// fonts
+$font-stack: 'clear sans', 'Tahoma', 'Geneva', sans-serif;
+
+// general
+$font-size: 16px;
+$line-height: 1.5;
+$letter-spacing: 0;
