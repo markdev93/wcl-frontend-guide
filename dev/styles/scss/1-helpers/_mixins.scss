@@ -23,7 +23,7 @@
 }
 
 // media query
-@mixin media($media-width){
+@mixin media-min($media-width){
   @media (min-width: $media-width){
     @content;
   }

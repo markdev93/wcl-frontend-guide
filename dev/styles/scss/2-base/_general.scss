@@ -1,0 +1,40 @@
+/* general styling */
+//reset
+*{
+  margin: 0;
+  padding: 0;
+  @include box-sizing(border-box);
+}
+
+//base
+body{
+  color: $font-colour-dark;
+  font-family: $font-stack;
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  margin: 0 auto;
+  width: 95%;
+}
+
+
+/* medium screens */
+@include media-min(45rem){
+  .container{
+    width: 90%;
+  }
+}
+
+/* large screens */
+@include media-min(57.5rem){
+  .container{
+    width: 85%;
+  }
+}

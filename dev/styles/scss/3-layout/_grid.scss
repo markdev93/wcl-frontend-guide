@@ -1,6 +1,6 @@
 // css grid layout
 // grid wrapper
-.row{
+.grid{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 1em;
@@ -46,7 +46,7 @@
 }
 
 // medium sized screens
-@include media(45em){
+@include media-min(45em){
   .m1{
     grid-column: span 1;
   }
@@ -86,7 +86,7 @@
 }
 
 // large sized screens
-@include media(57.5em){
+@include media-min(57.5em){
   .l1{
     grid-column: span 1;
   }
