@@ -23,14 +23,6 @@ gulp.task('copyHtml', function(html){
   html();
 });
 
-//optimize images jpg, png, svg & gif format
-/*gulp.task('imageOp', function(img){
-  gulp.src('dev/img/*')
-  .pipe(imagemin())
-  .pipe(gulp.dest('dist/img'));
-  img();
-});*/
-
 //optimize images to webp format
 gulp.task('imageMinWebp', function(webp){
   imagemin(['dev/img/*'], 'dist/img',{
