@@ -5,6 +5,7 @@
   z-index: 999;
   top: 0;
 }
+
 .wc-header,
 .wcl-header{
   height: 70px;
@@ -19,6 +20,7 @@
     height: 70px;
   }
 }
+
 .nav{
   display: flex;
   justify-content: space-between;
@@ -30,6 +32,7 @@
     }
   }
 }
+
 .wcl-header,
 .wcl-header-mobile{
   background: $brand-colour;
@@ -62,6 +65,7 @@
     color: $font-colour-light;
   }
 }
+
 .mobile-nav{
   text-align: center;
 }
