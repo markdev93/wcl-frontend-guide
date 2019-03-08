@@ -70,6 +70,11 @@
   text-align: center;
 }
 
+.location-bar{
+  background: $anti-flash-white;
+  height: 3.125rem; /* 50px */
+}
+
 //medium sized screens
 //1030px = 64.375em
 @include media-min(64.375em){
