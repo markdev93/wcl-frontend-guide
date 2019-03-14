@@ -104,6 +104,7 @@
     color: $font-colour-dark;
     box-shadow: 0px 10px 44px -30px $black-colour;
     margin-top: 70px; /* prevents wcl-header hiding the wc header */
+    z-index: 800; /* prevent WC dropdown menu from displaying under elements */
   }
   .wcl-links,
   .wcl-brand-dark{
@@ -117,5 +118,47 @@
   .fa-bars,
   .wcl-brand-light{
     display: none;
+  }
+
+  /* dropdown */
+  .dropdown-wrapper{
+    //display: flex;
+    display: none;
+    position: absolute;
+    top: 60px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 7px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 7px 0 rgba(0,0,0,.1);
+    padding: 26px 32px;
+    font-size: 0.875rem;
+    cursor: auto;
+    z-index: 999;
+    li{
+      display: block;
+    }
+    a{
+      color: $font-colour-dark;
+      &:hover{
+        color: $accent-colour;
+      }
+    }
+  }
+  .dropdown{
+    min-width: 180px;
+    margin: 0 56px 0 0;
+  }
+
+  .dd-right{
+    margin-right: 0;
+  }
+  .dropdown-title{
+    display: block;
+    color: #757575;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .dd-link{
+    margin: 17.5px 0;
   }
 }

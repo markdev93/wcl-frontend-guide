@@ -2,10 +2,14 @@
 let menuIcon = document.querySelector('#open');
 let closeIcon = document.querySelector('.btn-close-nav');
 let mobileMenu = document.querySelector('.wcl-header-mobile');
+
 // testing the DOM
-//console.log('menuIcon');
-//console.log('closeIcon');
-//console.log('mobileMenu');
+//console.log(menuIcon);
+//console.log(closeIcon);
+//console.log(mobileMenu);
+
+
+
 
 
 //open and close function
@@ -25,3 +29,10 @@ function toggle(trigger, element){
 };
 
 toggle(menuIcon, mobileMenu)
+
+
+function dropDown(trigger,element){
+  trigger.addEventListener('click', function(){
+    element.style.cssText = 'display: flex;';
+  });
+};
